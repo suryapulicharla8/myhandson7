@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom,rgb(140, 255, 0),rgb(236, 183, 48),rgb(38, 0, 255));
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-style: italic;
+}
+/* navbar */
+.active{
+  color:red;
+}
+.nonactive{
+  color: white;
+}
+.nav-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: green;
+  font-size: 2em;
+  padding: 0.3em;
+}
+.nav-flex a{
+  text-decoration: none;
+}
+/* table */
+h1{
+  color: brown;
+}
+#btn-div{
+  text-align: center;
+}
+.btn{
+  margin: 1em;
+  font-size: 1.5em;
+  color: white;
+  border: 0px;
+  border-radius: 1em;
+  font-weight: bold;
+  background-color: rgb(0, 255, 60);
+}
+.btn:hover{
+  color: darkblue;
+  background-color: rgb(227, 188, 61);
+
+}
+.table-flex{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  border-top: 2px solid blue;
+  border-bottom: 2px solid blue;
+  font-size: 1.5em;
+  padding: 0.2em;
+  background-color: cyan;
+  color: darkblue;
+}
+.table-flex div{
+  width: 20%;
+}
+/* addform and editform*/
+form{
+  text-align: center;
+  background-color: yellowgreen;
+}
+.form-label{
+  font-size: 1.5em;
+  color: darkblue;
+}
+.form-input{
+  text-align: center;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 2em;
+  border: 0px;
+  font-size: 1.5em;
+  color: rgb(97, 56, 163);
+}
